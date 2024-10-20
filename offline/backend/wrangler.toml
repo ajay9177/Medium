@@ -4,7 +4,8 @@ compatibility_date = "2024-10-15"
 compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
-
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiODkzNWZlYmQtZTgzYS00ZTFmLWI1OWUtMDhmMmYyYzI0MWIwIiwidGVuYW50X2lkIjoiOTJkMzllNzVkZWQ0ZDgwYjVhZjk3YzI3YmViOWVlODRmODNiMGQ3ZDhkM2QzODFlMjBiMjFiMDZjMDhiOTJiNyIsImludGVybmFsX3NlY3JldCI6IjU3YmMzZTBjLWI5OWEtNDIwZi1hZTVhLTNjMmQ5YWM5YjVkYSJ9.So4zdr89elmu5slBnlC58p88UXxgNPowUy1drmItVsw"
+JWT_SECRET="mediumtesting251251251"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
