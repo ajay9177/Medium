@@ -2,9 +2,11 @@ import { Appbar } from "../components/Appbar"
 import { BlogCard } from "../components/BlogCard"
 import { BlogSkeleton } from "../components/BlogSkeleton";
 import { useBlogs } from "../hooks";
+import { format } from 'date-fns';
 
 export const Blogs = () => {
     const { loading, blogs } = useBlogs();
+    const currentDate = format(new Date(), 'PP');
 
     if (loading) {
         return <div>
@@ -30,7 +32,7 @@ export const Blogs = () => {
                     authorName={blog.author.name || "Anonymous"}
                     title={blog.title}
                     content={blog.content}
-                    publishedDate={"2nd Feb 2024"}
+                    publishedDate={currentDate}
                 />)}
             </div>
         </div>

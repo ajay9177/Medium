@@ -3,13 +3,10 @@ export const Quote=()=>{
         <div className="flex justify-center">
             <div className="max-w-lg">
                 <div className=" text-3xl font-bold">
-                    "The customer support I received was exceptional. The support team went and beyond to address my concerns"
+                A Place to Write,<br/>A Place to Share.
                 </div>
-                <div className="max-w-lg  text-xl font-semibold text-left mt-4">
-                    Julies Winfield
-                </div>
-                <div className="max-w-lg  text-sm font-semibold">
-                    CEO | Acme corp
+                <div className="max-w-lg  text-sm font-semibold mt-4">
+                    CEO | WriteAndShare
                 </div>
             </div>
         </div>
