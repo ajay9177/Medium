@@ -52,3 +52,4 @@ export function Avatar({ name, size = "small" }: { name: string, size?: "small" 
     </span>
 </div>
 }
+//Blog Card
